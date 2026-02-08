@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Dinner Tonight</title>
+</head>
+<body>
+    <h1>About Us </h1>
+    <p> We here at slopApp made this little tool to make dinner and grocery shopping easier. Often, we aren't being creative enough when we make dinner, leading to food waste or saying "Fuck it! and ordering takeout.</p>
+    <!--Need at least 3 unordered lists. Base, protein, veg-->
+    <ul>Bases
+        <li> 
+            <label for="baseAdd">Enter a base:</label>
+            <input type="text" id="baseAdd" name="baseAdd">
+            <button id="addBase"> Add </button>
+        </li>
+    </ul>
+    <ul>Protein
+        <li>
+            <label for="proteinAdd">Enter a protein:</label>
+            <input type="text" id="proteinAdd" name="proteinAdd">
+            <button id="addProtein"> Add </button>
+        </li>
+    </ul>    
+    <ul>Vegetable
+       <li> 
+        <label for="vegAdd">Enter a vegetable:</label>
+        <input type="text" id="vegetableAdd" name="vegetableAdd">
+        <button id="addVeg"> Add </button>
+        </li>  
+    </ul>
+
+
+    <h2>My Fridge</h2>
+    <div id="fridge">
+        <div>
+          <h3>Bases</h3>
+          <ul id="baseFridge"></ul>
+        </div>
+      
+        <div>
+          <h3>Proteins</h3>
+          <ul id="proteinFridge"></ul>
+        </div>
+      
+        <div>
+          <h3>Vegetables</h3>
+          <ul id="vegFridge"></ul>
+        </div>
+      </div>
+    <p> Now that you've entered what you have, we can suggets a few ways of combining your ingredients in novel ways</p> 
+    <button id="slopButton"> Slop Me </button>
+    <h2>Your Slop Bowl</h2>
+    <div id="slopText"> 
+    </div>      
+    <script src="wife-app.js"></script>
+</body>
+</html>
